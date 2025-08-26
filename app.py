@@ -6,7 +6,7 @@ st.title("English/Hindi Text-to-Speech")
 
 # -----------------------------
 # 1️⃣ Enter your ElevenLabs API Key
-API_KEY = "sk_207165fe77e3ff79843fe8085c0ece631a88aa0d42e48958"
+API_KEY = "sk_b3869b67ef53303da0565aa1e6fd98e415cddc22b56c5d53"
 # -----------------------------
 
 # 2️⃣ Choose voice gender
@@ -68,3 +68,4 @@ if st.button("Generate Speech"):
             st.audio(audio_file, format="audio/mp3")
         else:
             st.error(f"❌ Failed to generate speech: {response.status_code}, {response.text}")
+
